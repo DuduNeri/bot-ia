@@ -1,7 +1,6 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const axios = require('axios');
-const { text } = require('express');
 
 const gemini_api_key = 'AIzaSyBhrbRZDsd923DlMAhZJ9KDF-nFu8Ic6C8';
 const gemini_url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${gemini_api_key}`;
